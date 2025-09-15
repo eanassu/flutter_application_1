@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 );
               }, 
-              child: const Text('Ir para a Gorjete'),)
+              child: const Text('Ir para a Gorjeta'),)
           ],
         ),
       ),
