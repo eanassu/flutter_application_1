@@ -4,6 +4,10 @@ import 'package:path/path.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
+// precisa rodar no terminal:
+// dart run sqflite_common_ffi_web:setup
+// para funcionar na WEB
+
 class DatabaseHelper {
   static final DatabaseHelper _instance=DatabaseHelper._internal();
   static Database? _database;
