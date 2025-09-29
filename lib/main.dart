@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/home_screen.dart';
 import 'package:flutter_application_1/segunda_tela.dart';
+import 'package:flutter_application_1/sensores.dart';
 import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
@@ -143,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const DatabaseHomeScreen(),
+                    builder: (context) => const SensorsScreen(),
                   ),
                 );
               }, 
