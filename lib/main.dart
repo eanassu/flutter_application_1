@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/desenho.dart';
 import 'package:flutter_application_1/home_screen.dart';
 import 'package:flutter_application_1/segunda_tela.dart';
 import 'package:flutter_application_1/sensores.dart';
@@ -144,11 +145,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const SensorsScreen(),
+                    builder: (context) => const DrawingScreen(),
                   ),
                 );
               }, 
-              child: const Text('Ir para a Gorjeta'),)
+              child: const Text('Ir para Desenho'),)
           ],
         ),
       ),
