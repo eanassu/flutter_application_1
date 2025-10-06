@@ -73,9 +73,9 @@ class DrawingPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     // Configurações do pincel
     final paint = Paint()
-      ..color = Colors.red // Cor do traço
+      ..color = Colors.black // Cor do traço
       ..strokeCap = StrokeCap.round // Formato da ponta do traço
-      ..strokeWidth = 10.0; // Espessura do traço
+      ..strokeWidth = 30.0; // Espessura do traço
 
     // Itera sobre a lista de pontos para desenhar as linhas
     for (int i = 0; i < points.length - 1; i++) {
