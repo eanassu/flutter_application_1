@@ -2,6 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/desenho.dart';
 import 'package:flutter_application_1/home_screen.dart';
+import 'package:flutter_application_1/map_screen.dart';
 import 'package:flutter_application_1/segunda_tela.dart';
 import 'package:flutter_application_1/sensores.dart';
 import 'package:sqflite_common_ffi_web/sqflite_ffi_web.dart';
@@ -145,11 +146,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const DrawingScreen(),
+                    builder: (context) => const MapScreen(),
                   ),
                 );
               }, 
-              child: const Text('Ir para Desenho'),)
+              child: const Text('Ir para Mapa'),)
           ],
         ),
       ),
